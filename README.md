@@ -4,9 +4,7 @@
 
 A portfolio of six **sanitized strategy engagements** showing how I use market evidence, AI-assisted research, commercial experience and management judgment to turn business problems into executable growth plans.
 
-# AI-Assisted Growth Strategy Casebook
-
-[Visit the live website](https://javier962.github.io/ai-assisted-growth-strategy-casebook/)
+# [Visit the live website](https://javier962.github.io/ai-assisted-growth-strategy-casebook/)
 
 > **AI accelerates the work. Management owns the decision.**
 
