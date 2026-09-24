@@ -65,41 +65,92 @@ footer{background:#06172d;color:#b9c5cc;padding:35px 7vw;display:flex;justify-co
  .casehead h3{font-size:24px!important}
 }
 </style>
+
+<style id="v8-index-final">
+html{scroll-behavior:smooth}
+.topnav{
+  position:sticky;top:0;z-index:50;
+  justify-content:flex-start!important;
+  padding:0 max(4vw,28px);
+}
+.topnav strong{margin-right:auto}
+.navlinks{display:flex;gap:6px}
+.navlinks a{
+  color:#526474;text-decoration:none;padding:8px 11px;border-radius:7px;
+  transition:.18s;background:transparent
+}
+.navlinks a:hover{background:#d9484a;color:#fff}
+.topnav em{margin-left:8px}
+
+.hero{
+  background:linear-gradient(108deg,#06172d 0%,#123f61 75%,#aaa5bf 100%)!important;
+}
+.hero h1{color:#c3ccd2!important}
+.hero h1 span{color:#c3ccd2}
+.hero h1 strong{color:#4fcac5;font-weight:inherit}
+.ey{color:#c7d0d5!important}
+
+.casehead{
+  background:linear-gradient(108deg,#08223e 0%,#154d69 75%,var(--soft) 100%)!important;
+}
+.case:nth-child(1){--soft:#c5a78e}
+.case:nth-child(2){--soft:#9fbba8}
+.case:nth-child(3){--soft:#bba4b6}
+.case:nth-child(4){--soft:#a9a3bb}
+.case:nth-child(5){--soft:#9fb3b8}
+.case:nth-child(6){--soft:#b8afa8}
+.casehead h3{color:#c4ccd2!important}
+.casehead h3 strong{color:#4fcac5!important;font-weight:inherit}
+.casehead small{color:#d0d9dd!important}
+.casehead i{background:#4fcac5!important}
+.casebody{background:linear-gradient(145deg,#e2ecee,#d5e3e6)!important}
+
+.mini{
+  background:linear-gradient(108deg,#08223e 0%,#154d69 78%,var(--accent) 125%)!important;
+  border-top-color:#4fcac5!important
+}
+.mini b{color:#4fcac5!important}
+.mini:hover{outline:2px solid #4fcac5;transform:translateY(-2px)}
+
+#cases{scroll-margin-top:78px}
+#method{scroll-margin-top:78px}
+.method{background:linear-gradient(145deg,#e2ecee,#d4e3e5)!important}
+.method h2{color:#66747f}
+@media(max-width:700px){
+ .navlinks{display:none}
+ .topnav em{font-size:10px}
+}
+</style>
 </head><body>
-<nav><strong>Javier Ortiz <span>· Strategy Portfolio</span></strong><em>PUBLIC PORTFOLIO EDITION</em></nav>
-<header class="hero"><div class="heroin"><div class="ey">Growth · GTM · Monetization · AI-Assisted Strategy</div><h1>AI-Assisted Growth Strategy Casebook</h1><p>Six reconstructed strategy engagements showing how market evidence, technology, AI-assisted research and commercial judgment can be converted into management decisions and executable growth plans.</p></div></header>
-<main><div class="label">Selected work</div><h2>Six strategy problems. Six different management levers.</h2><p class="intro">International expansion, transaction infrastructure, regional GTM, marketplace data monetization, growth-engine redesign and pricing architecture.</p>
+<nav class="topnav">
+  <strong>Javier Ortiz <span>· Strategy Portfolio</span></strong>
+  <div class="navlinks">
+    <a href="#cases">Cases</a>
+    <a href="#method">Method</a>
+  </div>
+  <em>PUBLIC PORTFOLIO EDITION</em>
+</nav>
+<header class="hero"><div class="heroin"><div class="ey">Growth · GTM · Monetization · AI-Assisted Strategy</div><h1><span>AI-Assisted Growth</span><br><strong>Strategy Casebook</strong></h1><p>Six reconstructed strategy engagements showing how market evidence, technology, AI-assisted research and commercial judgment can be converted into management decisions and executable growth plans.</p></div></header>
+<main><section id="cases"><div class="label">Selected work</div><h2>Six strategy problems. Six different management levers.</h2><p class="intro">International expansion, transaction infrastructure, regional GTM, marketplace data monetization, growth-engine redesign and pricing architecture.</p>
 <div class="minigrid"><a class="mini" style="--accent:#c8956d" href="web-demos/01-automotive-data-intelligence.html"><b>01</b><span>Automotive Data Intelligence</span></a><a class="mini" style="--accent:#79a98d" href="web-demos/02-transaction-infrastructure.html"><b>02</b><span>From Leads to Trusted Transactions</span></a><a class="mini" style="--accent:#b77d91" href="web-demos/03-proptech-ai-latam.html"><b>03</b><span>PropTech AI — LATAM Market Development</span></a><a class="mini" style="--accent:#8c7eaa" href="web-demos/04-marketplace-data-advantage.html"><b>04</b><span>Monetising a Marketplace's Data Advantage</span></a><a class="mini" style="--accent:#8ca4aa" href="web-demos/05-automotive-growth-engine.html"><b>05</b><span>Rebuilding an Automotive Marketplace Growth Engine</span></a><a class="mini" style="--accent:#aaa098" href="web-demos/06-pricing-commercial-model.html"><b>06</b><span>Closing the Listings Gap</span></a></div><div class="grid"><article class="case" style="--accent:#c8956d">
-      <div class="casehead"><small>CASE 01</small><h3>Automotive Data Intelligence</h3><i></i></div>
+      <div class="casehead"><small>CASE 01</small><h3>Automotive Data <strong>Intelligence</strong></h3><i></i></div>
       <div class="casebody"><p>International go-to-market and partnership architecture for a specialist pricing and valuation technology platform.</p><a href="web-demos/01-automotive-data-intelligence.html">Explore interactive case →</a></div>
     </article><article class="case" style="--accent:#79a98d">
-      <div class="casehead"><small>CASE 02</small><h3>From Leads to Trusted Transactions</h3><i></i></div>
+      <div class="casehead"><small>CASE 02</small><h3>From Leads to <strong>Trusted Transactions</strong></h3><i></i></div>
       <div class="casebody"><p>International expansion strategy for a transaction-protection layer designed to move classifieds and vertical marketplaces beyond lead generation.</p><a href="web-demos/02-transaction-infrastructure.html">Explore interactive case →</a></div>
     </article><article class="case" style="--accent:#b77d91">
-      <div class="casehead"><small>CASE 03</small><h3>PropTech AI — LATAM Market Development</h3><i></i></div>
+      <div class="casehead"><small>CASE 03</small><h3>PropTech AI — <strong>LATAM Market Development</strong></h3><i></i></div>
       <div class="casebody"><p>A regional expansion framework translating a broad Latin American opportunity into sequenced markets, channels, partnerships and measurable tests.</p><a href="web-demos/03-proptech-ai-latam.html">Explore interactive case →</a></div>
     </article><article class="case" style="--accent:#8c7eaa">
-      <div class="casehead"><small>CASE 04</small><h3>Monetising a Marketplace's Data Advantage</h3><i></i></div>
+      <div class="casehead"><small>CASE 04</small><h3>Monetising a Marketplace’s <strong>Data Advantage</strong></h3><i></i></div>
       <div class="casebody"><p>Product and pricing strategy for converting proprietary marketplace data, audience and inventory into differentiated revenue products.</p><a href="web-demos/04-marketplace-data-advantage.html">Explore interactive case →</a></div>
     </article><article class="case" style="--accent:#8ca4aa">
-      <div class="casehead"><small>CASE 05</small><h3>Rebuilding an Automotive Marketplace Growth Engine</h3><i></i></div>
+      <div class="casehead"><small>CASE 05</small><h3>Rebuilding an Automotive Marketplace <strong>Growth Engine</strong></h3><i></i></div>
       <div class="casebody"><p>A competitive diagnosis and prioritized growth plan spanning consumer UX, organic discovery, dealer value and new B2B monetization.</p><a href="web-demos/05-automotive-growth-engine.html">Explore interactive case →</a></div>
     </article><article class="case" style="--accent:#aaa098">
-      <div class="casehead"><small>CASE 06</small><h3>Closing the Listings Gap</h3><i></i></div>
+      <div class="casehead"><small>CASE 06</small><h3>Closing the <strong>Listings Gap</strong></h3><i></i></div>
       <div class="casebody"><p>Commercial-model redesign for an automotive marketplace where listing-slot economics were creating incentives that conflicted with inventory breadth.</p><a href="web-demos/06-pricing-commercial-model.html">Explore interactive case →</a></div>
-    </article></div>
-<section class="method"><div class="label">Working method</div><h2>AI-assisted, management-led</h2><p class="intro">Human experience & hypothesis → AI-assisted research and synthesis → source validation → strategic analysis → commercial judgment → interactive deliverable.</p></section></main>
+    </article></div></section>
+<section class="method" id="method"><div class="label">Working method</div><h2>AI-assisted, management-led</h2><p class="intro">Human experience & hypothesis → AI-assisted research and synthesis → source validation → strategic analysis → commercial judgment → interactive deliverable.</p></section></main>
 <footer><div><b>Javier Ortiz Sanz</b><br>Growth & Technology Executive</div><div>AI · Business Development · International Expansion · Digital Strategy</div></footer>
 </body></html>
-<style id="v8-hybrid-overrides">
-/* V8 hybrid: restrained colour hierarchy + 75/25 pastel gradient */
-.hero, .masthead, header.hero {background:linear-gradient(108deg,#06172d 0%,#123f61 75%,#aaa5bf 100%)!important}
-.hero h1,.hero-title,.masthead h1{color:#c5cdd3!important}.hero h1 strong,.hero-title strong,.masthead h1 strong{color:#4fcac5!important}
-.case-card:nth-child(1) .case-head,.case-card:nth-child(1) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#c5a78e 100%)!important}
-.case-card:nth-child(2) .case-head,.case-card:nth-child(2) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#9fbba8 100%)!important}
-.case-card:nth-child(3) .case-head,.case-card:nth-child(3) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#bba4b6 100%)!important}
-.case-card:nth-child(4) .case-head,.case-card:nth-child(4) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#a9a3bb 100%)!important}
-.case-card:nth-child(5) .case-head,.case-card:nth-child(5) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#9fb3b8 100%)!important}
-.case-card:nth-child(6) .case-head,.case-card:nth-child(6) .card-head{background:linear-gradient(108deg,#08223e 0%,#154d69 75%,#b8afa8 100%)!important}
-.case-card h3,.case-title{color:#c4ccd2!important}.case-card h3 strong,.case-title strong{color:#4fcac5!important}
-</style>
